@@ -1,0 +1,50 @@
+
+.container{
+    display: flex;
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center;  */
+    justify-content: center;
+    align-items: center;
+}
+
+.login-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 50vh;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    padding: 50px;
+}
+
+.login-contact input{
+    margin-top: 10px;
+    margin-bottom: 4px;
+    width: 100%;
+    padding: 5px;
+    border: 2px solid orange;
+}
+
+.login-contact button{
+    margin-top:10px ;
+    width: 100%;
+    background-color: orange;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.login-contact h5{
+    text-align: center;
+}
+
+.login-checkbox{
+    display: flex;
+    margin-left: 10px;
+}
+.login-checkbox input{
+    margin-left: 10px;
+}
